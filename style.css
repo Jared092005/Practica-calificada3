@@ -10,7 +10,7 @@ body {
 
 .titulo-principal {
   height: 15%;
-  border: 1px black solid;
+  /*   border: 1px black solid; */
   background-color: rgb(177, 223, 207);
   display: flex;
   flex-direction: column;
@@ -29,11 +29,14 @@ body {
 a {
   text-decoration: none;
 }
+.texto {
+  font-family: "helvetica", sans-serif;
+}
 .contenedor-principal {
   display: grid;
   height: 70%;
   width: 100%;
-  border: 1px black solid;
+  /*   border: 1px black solid; */
 }
 .subtitulo {
   text-align: center;
