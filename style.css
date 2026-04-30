@@ -9,70 +9,89 @@ body {
 }
 
 .titulo-principal {
-  height: 15%;
-  /*   border: 1px black solid; */
-  background-color: rgb(177, 223, 207);
+  height: 20%;
+  border: 1px black solid;
+  background-color: green;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+.welcome {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .barra-nav {
   display: flex;
   gap: 10px;
-  align-items: start;
+  align-items: center;
   justify-content: start;
   width: 100%;
   padding-left: 16px;
   padding-top: 8px;
+  background-color: black;
+  height: 40%;
 }
 a {
   text-decoration: none;
+  color: white;
 }
 .texto {
   font-family: "helvetica", sans-serif;
 }
 .contenedor-principal {
   display: grid;
-  height: 75%;
+  grid-template-columns: 1fr 1fr;
+  height: 50%;
   width: 100%;
-  background-color: rgb(245, 245, 234);
+  background-color: beige;
+
   /*   border: 1px black solid; */
 }
-.subtitulo {
-  text-align: center;
-}
-.card {
-  /*   border: 1px black solid; */
-  height: 300px;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-around;
-}
-.contenido-card {
+.hero-section {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  /*   border: 1px black solid; */
-  background-color: rgb(245, 245, 245);
-  box-shadow: 3px 3px 6px rgba(44, 43, 43, 0.322);
-  border-radius: 8px;
+  padding-top: 40px;
+  padding-left: 20px;
+  gap: 10px;
 }
-.imagen {
+.btn-hero {
+  width: 12%;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  background-color: green;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.btn-hero:hover {
+  background-color: rgb(6, 201, 6);
+}
+
+.sesion-img {
+  position: relative;
+}
+.img {
   width: 200px;
-  border-radius: 8px 8px 0px 0px;
-  height: 150px;
+  position: absolute;
+  top: 50px;
+  left: 300px;
 }
-.texto-card {
-  width: 200px;
-  text-align: start;
-  padding-left: 8px;
-  font-size: 12px;
+.ultima-seccion {
+  height: 25%;
 }
-.cosas-hacer {
-  width: 40%;
-  padding-left: 16px;
-}
-.texto-cosas {
-  font-size: 12px;
+
+.pie-pagina {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(49, 48, 48);
+  color: white;
+  font-size: 10px;
 }
